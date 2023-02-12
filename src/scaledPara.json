@@ -1,0 +1,38 @@
+{
+         "laser_power": [
+                  2000,
+                  20000
+         ],
+         "thickness": [
+                  0,
+                  25
+         ],
+         "raster": [
+                  0,
+                  6
+         ],
+         "nozzle_diameter": [
+                  0,
+                  6
+         ],
+         "nozzle_distance": [
+                  0.2,
+                  2.0
+         ],
+         "speed": [
+                  630,
+                  85800
+         ],
+         "focal_position": [
+                  -2.5,
+                  13.5
+         ],
+         "gas_pressure": [
+                  3,
+                  18
+         ],
+         "cut_control": [
+                  0,
+                  65535
+         ]
+}

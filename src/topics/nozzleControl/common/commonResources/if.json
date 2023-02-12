@@ -1,0 +1,41 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Jan 25 14:13:30 2023
+
+@author: chggo
+"""
+
+
+{
+
+"intial_lr": 0.001,
+"epochs": 20,
+"batch_size":16,
+"randomSeed": 42,
+"imgReplicate":7,
+"validate_Input": false,
+"validate_test": false,
+"synthetic": true,
+"DeepMonster": false,
+"total_synthetic_images":40,
+
+"if": {"DeepMonster": true},
+"then":
+     {
+        "data_path":"//data//EL1947-NozzleCentering//icpNozzleSegmentation//data",
+        "result_path":"//data//EL1947-NozzleCentering//nozzleWork//result//",
+        "checkpoint_path": "hh"
+     }
+   ,
+        
+"else": 
+  {
+    "data_path": "C:\\Users\\chggo\\REG_analysis\\icpNozzleCentering\\data\\img",
+    "result_path": "C:\\Users\\chggo\\REG_analysis\\icpNozzleCentering\\result",
+    "checkpoint_path":"C:\\Users\\chggo\\REG_analysis\\icpNozzleCentering\\model\\training\\cp.ckpt"
+
+    }
+    
+
+
+}

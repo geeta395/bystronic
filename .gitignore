@@ -1,0 +1,14 @@
+setup/deb/debian/icpdataprocessor*substvars
+setup/deb/debian/icpdataprocessor
+setup/deb/debian/*debhelper
+setup/deb/debian/*build-stamp*
+setup/deb/debian/files
+setup/deb/debian/tmp
+
+setup/icpdataprocessor*.dsc
+setup/icpdataprocessor*.tar.gz
+setup/icpdataprocessor*.deb
+setup/icpdataprocessor*.buildinfo
+setup/icpdataprocessor*.changes
+
+*.log
