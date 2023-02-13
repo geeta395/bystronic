@@ -1,5 +1,0 @@
-# will be a softlink: /opt/bystronic/icpdataprocessor/work
-/opt/data/bystronic/icpdataprocessor/work
-
-# will be a softlink: /opt/bystronic/icpdataprocessor/work/log
-/opt/data/bystronic/icpdataprocessor/log

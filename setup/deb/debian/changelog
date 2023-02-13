@@ -1,6 +1,0 @@
-icpdataprocessor (0.1.2) unstable; urgency=medium
-
-  * Additional release.
-  * fix ci - no changes on source
-
- -- Christoph Fahrni <info@bystronic.com>  Mon, 02 Sep 2022 14:47:24 -0400
