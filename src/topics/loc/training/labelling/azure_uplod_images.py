@@ -12,8 +12,7 @@ import os
 from azure.storage.blob import BlobServiceClient, BlobClient
 from azure.storage.blob import ContentSettings, ContainerClient
  
-MY_CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=icplocdetectionappdata;AccountKey=mj+8hE0sEg08vSg3oA4LvbJrPLPAr33MW4CnysWK6Ui+FuCQWZCLz4/OAjuC0Ojp/QK0lrWDdXjQ+AStcxanGA==;EndpointSuffix=core.windows.net"
- 
+MY_CONNECTION_STRING = ''
 
 MY_IMAGE_CONTAINER = "unlabeled20220109"
  
